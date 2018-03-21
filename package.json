@@ -1,0 +1,44 @@
+{
+  "name": "react-unit-test-jest-demo",
+  "version": "1.0.0",
+  "description": "An example of unit testing to react components with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharmSun/react-unit-test-jest-demo.git"
+  },
+  "keywords": [
+    "react",
+    "unit-testing",
+    "jest"
+  ],
+  "author": "Charm Sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CharmSun/react-unit-test-jest-demo/issues"
+  },
+  "homepage": "https://github.com/CharmSun/react-unit-test-jest-demo#readme",
+  "jest": {
+    "setupFiles": [
+      "./test/test_helper.js"
+    ]
+  },
+  "devDependencies": {
+    "babel-jest": "^22.4.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^22.4.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0"
+  }
+}
